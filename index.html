@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/custom.css" />
+    <link rel="stylesheet" href="css/fontawesome.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <!-- Sidebar - Menu -->
+      <nav id="sidebar" class="bg-primary">
+        <div class="sidebar-header">
+          <h3>Draxter</h3>
+        </div>
+
+        <ul class="list-unstyled components">
+          <p>Industry</p>
+          <li class="active">
+            <a
+              href="#homeSubmenu"
+              data-toggle="collapse"
+              aria-expanded="false"
+              class="dropdown-toggle"
+              >Nosotros</a
+            >
+            <ul class="collapse list-unstyled" id="homeSubmenu">
+              <li>
+                <a href="#">Misión</a>
+              </li>
+              <li>
+                <a href="#">Visión</a>
+              </li>
+              <li>
+                <a href="#">Politicas</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">Iniciar sesión</a>
+          </li>
+          <li>
+            <a href="#">Registrate</a>
+          </li>
+          <li>
+            <a href="#">Contacto</a>
+          </li>
+        </ul>
+      </nav>
+      <!--Content-->
+
+      <div id="content">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <div class="container-fluid">
+            <button type="button" id="sidebarCollapse" class="btn btn-info">
+              <i class="fas fa-chevron-left" id="arrow1"></i>
+            </button>
+          </div>
+        </nav>
+      </div>
+    </div>
+
+    <script src="js/jquery-3.6.1.min.js"></script>
+    <script src="https://unpkg.com/@popperjs/core@2"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script defer src="js/solid.js"></script>
+    <script defer src="js/fontawesome.js"></script>
+    <script src="js/custom.js"></script>
+  </body>
+</html>
